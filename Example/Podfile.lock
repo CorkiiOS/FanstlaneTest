@@ -1,0 +1,16 @@
+PODS:
+  - FastlaneTDemo (0.1.0)
+
+DEPENDENCIES:
+  - FastlaneTDemo (from `../`)
+
+EXTERNAL SOURCES:
+  FastlaneTDemo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FastlaneTDemo: 144391ff5ddc9e07a8a3d3706cef360a5a587d8d
+
+PODFILE CHECKSUM: 9a60c039cd455e76bec8aa615ee332f32423b0b9
+
+COCOAPODS: 1.2.1

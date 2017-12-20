@@ -1,0 +1,53 @@
+lane :updateLib do |options|
+
+  #tag
+
+  tagName = options[:tag]
+
+  #podspec name
+
+  specName = options[:spec]
+  podSpecName = "#{specName}.podspec"
+
+  #repo name
+
+  repoName = options[:repo]
+
+  #1. pod install
+ cocoapods(
+clean: true,
+podfile: "./Example/Podfile"
+)
+
+  #2. git add .
+
+  git_add(path: ".")
+
+  #3. git commit -m '描述'
+
+  git_commit(path: ".", message: "Version Bump")
+
+  #4. git push origin master
+  push_to_git_remote
+
+  #5. git tag xxx 如果存在则删除 重新添加
+
+  add_git_tag(
+  tag: tagName
+  )
+
+  #6 git push --tags
+
+  push_git_tags
+
+  #7 pod spec lint lib.spec
+
+  pod_lib_lint(allow_warnings: true)
+
+
+  #9 pod repo push lib lib.podsepc
+
+  pod_push(path: podSpecName, repo: repoName, allow_warnings:true)
+
+
+end
