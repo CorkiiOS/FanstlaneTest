@@ -1,8 +1,8 @@
 {
   "name": "FastlaneTDemo",
   "version": "0.1.0",
-  "summary": "A short description of FastlaneTDemo.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "FastlaneTDemo.xxxx",
+  "description": "\"FastlaneTDemo.xxxxssssss\"",
   "homepage": "https://github.com/corkiios/FastlaneTDemo",
   "license": {
     "type": "MIT",
@@ -12,7 +12,7 @@
     "corkiios": "675053587@qq.com"
   },
   "source": {
-    "git": "https://github.com/corkiios/FastlaneTDemo.git",
+    "git": "https://github.com/CorkiiOS/FanstlaneTest",
     "tag": "0.1.0"
   },
   "platforms": {
