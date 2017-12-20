@@ -47,7 +47,7 @@ podfile: "./Example/Podfile"
 
   #9 pod repo push lib lib.podsepc
 
-  pod_push(path: podSpecName, repo: repoName, allow_warnings:true)
+  pod_push(path: podSpecName, repo: specName, allow_warnings:true)
 
 
 end

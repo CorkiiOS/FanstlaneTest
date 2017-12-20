@@ -1,5 +1,5 @@
 PODS:
-  - FastlaneTDemo (0.1.0)
+  - FastlaneTDemo (0.1.1)
 
 DEPENDENCIES:
   - FastlaneTDemo (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FastlaneTDemo: 63a494f59facd7e0b0cdec70775f4059dc287e45
+  FastlaneTDemo: 0e9370008fcdcfe480631252cfdd7010b29eefa5
 
 PODFILE CHECKSUM: 9a60c039cd455e76bec8aa615ee332f32423b0b9
 
