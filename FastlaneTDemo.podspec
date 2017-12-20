@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 "FastlaneTDemo.xxxxssssss"
                        DESC
 
-  s.homepage         = 'https://github.com/corkiios/FastlaneTDemo'
+  s.homepage         = 'https://github.com/CorkiiOS/FanstlaneTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'corkiios' => '675053587@qq.com' }
